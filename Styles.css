@@ -4,9 +4,46 @@
         cursor: pointer;
         font-size: 22px;
         margin-left: 5px;
+        
     }
     a{
         color: white;
     }
+    .Logo{
+        font-size: 35px;
+    }
+    .Button-Class{
+        margin-left: 650px;
+    }
+    .Booking-Bac-Image-2{
+        margin-left: 880px;
+    }
+
+
+    @media (max-width: 600px){
+    .Heading-Text{
+        font-size: 9px;
+        padding-top: 1px;
+    }
+    .Logo{
+        font-size: 24px;
+    }
+    .Button-Class{
+        margin-left: 5px;
+    }
+    .Booking-Bac-Image{
+        display: None;
+    }
+    .Booking-Bac-Image-2{
+        display: none;
+        
+    }
+    form{
+        size: 50%;
+    }
     
+    button{
+        font-size: 14px;
+    }
     
+}
